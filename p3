@@ -1,0 +1,28 @@
+<html>
+<head>
+<title> Tag Example</title>
+</head>
+<style>
+p1{background:red;font-size:30px}
+body{background:lightblue}
+</style>
+
+
+<body>
+<p1><u> text will be underlined</u><br /><i>Text will be in italic</i><br /><b>Text will be bold</b></p1>
+
+<address> address text goes here</address>
+
+<ins>Text goes here </ins><br />
+
+<bdo dir="rtl"> This text will go right to left</bdo><br />
+
+<small>Text size is small</small><br />
+<big> Text size is big</big>
+
+
+
+
+
+</body>
+</html>
