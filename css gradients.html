@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Grading</title>
+
+<style>
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(orange, blue); /* Standard syntax (must be last) */
+}
+
+#grad2 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, orange, blue); /* Standard syntax (must be last) */
+}
+
+#grad3 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to left, orange, blue); /* Standard syntax (must be last) */
+}
+
+
+#grad4 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to top, orange, blue); /* Standard syntax (must be last) */
+}
+
+</style>
+</head>
+<body>
+
+<h1>Linear Gradient</h1>
+
+
+<p>CSS Grading top to bottom. This linear gradient starts at the top.</p>
+<div id="grad1"></div>
+
+
+
+<p>CSS Grading To right. Starts from left and goes right</p>
+<div id="grad2"></div>
+
+
+<p>CSS Grading To left. Starts from right and goes left</p>
+<div id="grad3"></div>
+
+<p>CSS Grading To top. Starts from bottom to top</p>
+<div id="grad4"></div>
+
+
+</body>
+</html>
+
